@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Switch, Router } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import ProductList from './components/ProductList'
@@ -11,11 +12,13 @@ function App() {
 
   return (
     <>
+      <Switch>
+        <Router path="/" component={ProductList}/>
+        <Router path="/detai;s" component={Details}/>
+        <Router path="/cart" component={Cart} />
+        <Router component={Default}/>
+      </Switch>
       <Navbar/>
-      <ProductList/>
-      <Details/>
-      <Cart/>
-      <Default/>
     </>
   )
 }
