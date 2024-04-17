@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Switch>
-        <Router path="/" component={ProductList}/>
+        <Router exact path="/" component={ProductList}/>
         <Router path="/detai;s" component={Details}/>
         <Router path="/cart" component={Cart} />
         <Router component={Default}/>
