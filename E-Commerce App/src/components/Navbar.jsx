@@ -8,6 +8,7 @@ export default class Navbar extends Component {
       <nav className='navbar'>
         <Link to='/'>
           <img src={logo} alt="Logo"  height={100} width={100}/>
+          <h1>gggggggg</h1>
         </Link>
       </nav>
     );
