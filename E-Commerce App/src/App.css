@@ -2,7 +2,7 @@
 @import '@fontsource/permanent-marker';
 
 body {
-  font-family: 'Permanent Marker', sans-serif !important;
+  font-family: 'Permanent Marker', 'Times New Roman', Times, serif !important;
 }
 #root {
   --mainBlue:#2a2a72;
