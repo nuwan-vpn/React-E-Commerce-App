@@ -2,7 +2,7 @@
 @import '@fontsource/permanent-marker';
 
 body {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', sans-serif !important;
 }
 #root {
   --mainBlue:#2a2a72;
