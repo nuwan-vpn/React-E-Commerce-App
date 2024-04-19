@@ -6,7 +6,7 @@ import logo from '../telephone_icon.png';
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className='navbar bg-primary'>
+      <nav className='navbar navbar-expand-sm bg-primary navbar-dark px-sm-5'>
         <Link to='/'>
           <img src={logo} alt="Logo"  height={100} width={100}/>
           
