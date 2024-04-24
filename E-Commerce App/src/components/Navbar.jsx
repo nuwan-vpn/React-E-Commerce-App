@@ -4,6 +4,7 @@ import logo from '../telephone_icon.png';
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { ButtonContainer } from './Button';
 
 export default class Navbar extends Component {
   render() {
@@ -21,9 +22,9 @@ export default class Navbar extends Component {
             </li>
           </ul>
           <Link to='/cart' className='navbar-text'>
-            <button className='btn btn-light'>
+            <ButtonContainer className='btn btn-light'>
               <FontAwesomeIcon icon={faCartPlus} /> My Cart
-            </button>
+            </ButtonContainer>
           </Link>
         </div>
       </nav>
