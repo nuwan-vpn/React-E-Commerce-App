@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-export class Cartitem extends Component {
+export class CartItem extends Component {
  
   render() {
     return (
